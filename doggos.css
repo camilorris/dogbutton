@@ -1,0 +1,54 @@
+body {
+  background-color: #fdf4e7;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #303030;
+  text-align: center;
+  margin: 40px;
+  font-size: 50px;
+}
+
+button {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  padding: 8px 15px;
+  cursor: pointer;
+  background-color: #f3ddff;
+  color: #303030;
+  border-radius: 10px;
+  border: 2px solid #303030;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #c8c8c8;
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+button:hover {
+  background-color: #f4e5fd;
+}
+
+button:active {
+  background-color: #edcefd;
+  box-shadow: 0 5px #afafaf;
+  transform: translateY(4px);
+}
+
+.doggos {
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  margin: 5px;
+  color: #004762;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
